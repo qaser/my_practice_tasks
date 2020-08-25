@@ -1,6 +1,4 @@
 def is_triangle(a, b, c):
-    if c < a + b and b < a + c and a < b + c:
-        return True
-    return False
+    return (c < a + b) and (b < a + c) and (a < b + c)
 
-print(is_triangle(2, 3, 5))
+print(is_triangle(2, 8, 5))
